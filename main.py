@@ -1,5 +1,4 @@
 import streamlit as st
-import pinecone
 from constants import SYSTEM_PROMPT
 from utils import get_query_embeddings, query_pinecone_index, better_query_response
 
